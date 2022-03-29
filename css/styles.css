@@ -1,0 +1,52 @@
+/** {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*/
+
+header {
+    margin: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 1px yellow;
+}
+
+body {
+    background: #DAF7A6;
+}
+
+
+.img-juan {
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: auto;
+    margin: 20px auto;
+        
+}
+
+.descripcion {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-align:left;
+    line-height: 20px;
+    
+}
+
+.formulario {
+    width: 400px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(181, 209, 105);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 20px;
+    margin: 50px auto;
+}

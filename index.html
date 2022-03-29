@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Desafio 1 y 2</title>
+</head>
+<body>
+
+<!--
+1. Crear un archivo html
+2. Utilizando las etiquetas vistas en clase, crear su perfil, es decir:
+- Foto de perfil
+- Lista con edad, nombre, apellido, mail.
+- Un párrafo con una breve descripción de ustedes.
+-->
+<header>
+    <h1 id="titulo_principal">Mi Perfil NUCBA</h1>
+</header>
+
+<img class="img-juan" src="/img/Juan galeno.jpg" alt="FotoJuan">
+<hr>
+<section class="datosPersonales">
+    <h2><u>Mis datos personales</u></h2>
+    
+    <ul>
+        <li>Nombre: Juan Carlos</li>
+        <li>Apellido: Cespedes</li>
+        <li>Edad: 45</li>
+        <li>Mail: cespedesjuanc@gmail.com</li>
+    </ul>
+
+    <p class="descripcion">
+        Mi nombre es Juan, vivo en Merlo, zona oeste de la Provincia de Buenos Aires.
+    </p>
+    <p class="descripcion">
+        Trabajo como DBA con bases de datos Sybase y SQL Server.
+    </p>
+    <p class="descripcion">
+        Siempre me intereso la programación y es por eso que quiero realizar un cambio de carrera hacia el Desarrollo Web.
+    </p>
+
+</section>
+
+<section class="formulario">
+    <form action="">
+        <label for="nombre">Ingrese su Nombre: </label>
+        <input type="text" id="nombre" placeholder="Ingrese su nombre"><br>
+        
+        <label for="apellido">Ingrese su Apellido: </label>
+        <input type="text" id="apellido" placeholder="Ingrese su apellido"><br>
+
+        <label for="mail">Ingrese su email</label>
+        <input type="email" name="mail" id="mail" placeholder="Ingrese su email"><br>
+        <br>
+        <label for="comentario">Comentarios:</label><br>
+        <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+        <br>
+        <input type="submit" value="Enviar Form">
+    </form>
+</section>
+
+
+</body>
+</html>
